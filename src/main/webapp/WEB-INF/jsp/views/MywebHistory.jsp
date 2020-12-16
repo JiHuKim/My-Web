@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<script type="text/javascript" src="<c:url value='/js/MywebUp.js'/>"></script>
 <title>My Web History</title>
 </head>
 <body>
-<div>History</div>
+<div>History페이지로 이동</div>
 </body>
 </html>

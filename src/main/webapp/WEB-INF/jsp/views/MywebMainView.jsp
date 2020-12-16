@@ -1,13 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>My web Main</title>
+<script type="text/javascript" src="<c:url value='/js/MywebUp.js'/>">
+
+
+</script>
+
 </head>
 <body>
-<header>
+<!-- <header>
 <form>
 <h1 id="mywebmain">My Web</h1>
 <div>
@@ -17,15 +23,13 @@
 <input id="loginbtn" class="gobtn" type="button" value="Login"/>
 </div>
 </form>
-</header>
-
+</header> -->
+<main>
 <div>
 main
 </div>
-
-<div>git branch</div>
-<div>git branch</div>
-<div>git branch</div><div>git branch</div><div>git branch</div>
+</main>
 
 </body>
+
 </html>
