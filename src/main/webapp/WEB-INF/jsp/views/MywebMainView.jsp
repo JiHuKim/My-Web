@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>My web Main</title>
+<link href="<c:url value='/css/MywebUp.css'/>" rel="stylesheet" type="text/css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="<c:url value='/js/MywebEvent.js'/>"></script>
 <script type="text/javascript">

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+form{
+	width: 100%;
+	height: 100px;
+}
+header{
+	width: 100%;
+	height: 100%;
+}
+
+form,div,header,main,footer{
+	margin: 0;
+	padding: 0;
+}
+
+
+#main_h1{
+	margin: 0;
+	padding: 0;
+	font-style: oblique;
+	height: 50%;
+	width:100%;
+	padding-left: 20px;
+}
+
+#btndiv{
+	overflow:hidden;
+	background-color: black;
+	height: 50%;
+	width: 100%;
+	
+}
+
+nav{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#menubtn{
+	display: none;
+}
+
+.gobtn{
+	overflow: hidden;
+	background-color: black;
+	color: white;
+	border: 0;
+	height: 100%;
+	font-size: 20px;
+	font-family: fantasy;
+	width: 10%;
+	margin: auto;
+}
+
+@media (max-width:660px){
+.gobtn{
+	color: red;
+}
+}
