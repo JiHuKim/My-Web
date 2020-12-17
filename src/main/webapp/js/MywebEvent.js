@@ -11,10 +11,16 @@ function textChange(id,val){
 	id.innerHTML=val;
 }
 
-function goEvent(form,eventid,url){
+function goEvent(form,eventid,url,method){
 	eventid.addEventListener('click',function(){
 		form.action = url;
-		form.method = "post";
+		if(method == "get"){
+			form.method ="get";
+		}else if(method == "post"){
+			form.method = "post";	
+		}else{
+			console.log("method??")
+		}
 		form.submit();	
 	})
 	

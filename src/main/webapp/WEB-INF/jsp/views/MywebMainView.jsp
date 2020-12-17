@@ -12,31 +12,22 @@
 window.onload = function(){
 	var f_name = document.headerform;
 	var main_h1 = document.getElementById('main_h1');
+	var mainbtn = document.getElementById('mainbtn');
 	var aboutbtn = document.getElementById('aboutbtn');
 	var historybtn = document.getElementById('historybtn');
 	var servicebtn = document.getElementById('servicebtn');
 	
 	textChange(main_h1,"My Web");
 	
-	goEvent(f_name,aboutbtn,"/about.do");
-	goEvent(f_name,historybtn,"/history.do");
-	goEvent(f_name,servicebtn,"/service.do");
+	goEvent(f_name,mainbtn,"/main.do","get");
+	goEvent(f_name,aboutbtn,"/about.do","post");
+	goEvent(f_name,historybtn,"/history.do","post");
+	goEvent(f_name,servicebtn,"/service.do","post");
 	
 } 
 </script>
 </head>
 <body>
-<!-- <header>
-<form>
-<h1 id="mywebmain">My Web</h1>
-<div>
-<input id="aboutbtn" class="gobtn" type="button" value="About"/>
-<input id="historybtn" class="gobtn" type="button" value="History"/>
-<input id="servicebtn" class="gobtn" type="button" value="Service"/>
-<input id="loginbtn" class="gobtn" type="button" value="Login"/>
-</div>
-</form>
-</header> -->
 <main>
 <div>
 main
