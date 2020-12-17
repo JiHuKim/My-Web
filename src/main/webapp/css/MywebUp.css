@@ -62,8 +62,39 @@ nav{
 	margin: auto;
 }
 
-@media (max-width:660px){
-.gobtn{
-	color: red;
+.gobtn:hover {
+	color: gray;
+	cursor: pointer;
 }
+
+@media (max-width:660px){
+	#menubtn{
+		display: inline-block;
+	}
+	#mainbtn, #aboutbtn,#historybtn,#servicebtn{
+		color: red;
+		position: absolute;
+		height: 50px;
+		width: 80px;
+		visibility: hidden;
+	}
+	#mainbtn{
+		top: 100px;
+	}
+	#aboutbtn{
+		top: 150px;
+	}
+	#historybtn{
+		top: 200px;
+	}
+	#servicebtn{
+		top: 250px;
+	}
+	#menubtn:hover ~  #mainbtn,
+	#menubtn:hover ~ #aboutbtn,
+	#menubtn:hover ~ #historybtn,
+	#menubtn:hover ~ #servicebtn{
+		visibility: visible;
+	}
+
 }
