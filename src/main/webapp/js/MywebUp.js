@@ -2,7 +2,7 @@
  * 
  */
 
-window.onload = function(){
+
 	var form = document.createElement('form');
 	var header = document.createElement('header');
 	var main_h1 = document.createElement('h1');
@@ -56,31 +56,28 @@ window.onload = function(){
 	
 	aboutbtn.onclick = function(){
 		document.getElementById('main_h1').innerHTML="About";
-		document.mainform.setAttribute('method','post');
-		document.mainform.action = "/about.do";
-		document.mainform.submit();
+		document.headerform.setAttribute('method','post');
+		document.headerform.action = "/about.do";
+		document.headerform.submit();
 		
 	}
 	historybtn.onclick = function(){
 		document.getElementById('main_h1').innerHTML="History";
-		document.mainform.setAttribute('method','post');
-		document.mainform.action = "/history.do";
-		document.mainform.submit();
+		document.headerform.setAttribute('method','post');
+		document.headerform.action = "/history.do";
+		document.headerform.submit();
 	}
 	servicebtn.onclick = function(){
 		document.getElementById('main_h1').innerHTML="Service";
-		document.mainform.setAttribute('method','post');
-		document.mainform.action = "/service.do";
-		document.mainform.submit();
+		document.headerform.setAttribute('method','post');
+		document.headerform.action = "/service.do";
+		document.headerform.submit();
 	}*/
 
 
 
 
 
-}
-var aboutbtn = function(){
-	document.mainform.setAttribute('method','post');
-	document.mainform.action = "/about.do";
-	document.mainform.submit();
-}
+
+
+
