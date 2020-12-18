@@ -36,7 +36,7 @@
 		
 		switch(i){
 			case 0 : input_arr[i].setAttribute('id','menubtn');
-					 input_arr[i].setAttribute('value','♠');break;
+					 input_arr[i].setAttribute('value','MENU');break;
 			case 1 : input_arr[i].setAttribute('id','mainbtn');
 					 input_arr[i].setAttribute('value','Main');
 					 input_arr[i].setAttribute('name','navbtn');break;
@@ -55,7 +55,14 @@
 	}
 
 
-
+	var media = window.matchMedia('(min-width: 661px)');
+	for(var i=0; i<document.getElementsByName('navbtn').length; i++){
+		if(media.matches){
+			document.getElementsByName('navbtn')[i].style.display = "inline-block";
+		}else{
+			document.getElementsByName('navbtn')[i].style.display = "none";
+		}
+	}
 
 
 

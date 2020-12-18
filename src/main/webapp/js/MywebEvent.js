@@ -36,6 +36,7 @@ function menuToggle(targetid,eventname){
 			if(media.matches){
 				eventname[i].style.display = "inline-block";
 			}else{
+				console.log("실행");
 				eventname[i].style.display = "none";
 			}
 		}

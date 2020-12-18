@@ -70,13 +70,14 @@ nav{
 @media (max-width:660px){
 	#menubtn{
 		display: inline-block;
+		width: 100%;
 	}
 	#mainbtn, #aboutbtn,#historybtn,#servicebtn{
-		color: red;
 		position: absolute;
 		height: 50px;
-		width: 80px;
-		display: none;
+		width: 100%;
+		left: 0px;
+		
 	}
 	#mainbtn{
 		top: 100px;
