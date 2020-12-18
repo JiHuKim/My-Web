@@ -24,7 +24,6 @@ window.onload = function(){
 		navbtn[i] =document.getElementsByName('navbtn')[i];
 	}
 	
-	console.log(navbtn);
 	
 	textChange(main_h1,"My Web");
 	
