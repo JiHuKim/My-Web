@@ -33,17 +33,22 @@
 		input_arr[i].setAttribute('type','button');
 		input_arr[i].setAttribute('class','gobtn');
 		
+		
 		switch(i){
 			case 0 : input_arr[i].setAttribute('id','menubtn');
 					 input_arr[i].setAttribute('value','♠');break;
 			case 1 : input_arr[i].setAttribute('id','mainbtn');
-					 input_arr[i].setAttribute('value','Main');break;
+					 input_arr[i].setAttribute('value','Main');
+					 input_arr[i].setAttribute('name','navbtn');break;
 			case 2 : input_arr[i].setAttribute('id','aboutbtn');
-					 input_arr[i].setAttribute('value','About');break;
+					 input_arr[i].setAttribute('value','About');
+					 input_arr[i].setAttribute('name','navbtn');break;
 			case 3 : input_arr[i].setAttribute('id','historybtn');
-					 input_arr[i].setAttribute('value','History');break;
+					 input_arr[i].setAttribute('value','History');
+					 input_arr[i].setAttribute('name','navbtn');break;
 			case 4 : input_arr[i].setAttribute('id','servicebtn');
-					 input_arr[i].setAttribute('value','Service');break;
+					 input_arr[i].setAttribute('value','Service');
+					 input_arr[i].setAttribute('name','navbtn');break;
 			default : break;
 		}
 	

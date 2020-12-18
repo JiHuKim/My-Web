@@ -76,7 +76,7 @@ nav{
 		position: absolute;
 		height: 50px;
 		width: 80px;
-		visibility: hidden;
+		display: none;
 	}
 	#mainbtn{
 		top: 100px;
@@ -90,11 +90,7 @@ nav{
 	#servicebtn{
 		top: 250px;
 	}
-	#menubtn:hover ~  #mainbtn,
-	#menubtn:hover ~ #aboutbtn,
-	#menubtn:hover ~ #historybtn,
-	#menubtn:hover ~ #servicebtn{
-		visibility: visible;
-	}
 
 }
+
+
