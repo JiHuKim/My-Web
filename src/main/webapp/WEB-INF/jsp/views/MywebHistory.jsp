@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="<c:url value='/css/MywebUp.css?ver=2'/>" rel="stylesheet" type="text/css">
+<link href="<c:url value='/css/MywebUp.css?ver=3'/>" rel="stylesheet" type="text/css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="<c:url value='/js/MywebEvent.js?ver=1'/>"></script>
 <script type="text/javascript">
@@ -38,5 +38,5 @@ window.onload = function(){
 <body>
 <div>History페이지로 이동</div>
 </body>
-<script type="text/javascript" src="<c:url value='/js/MywebUp.js?ver=1'/>"></script>
+<script type="text/javascript" src="<c:url value='/js/MywebUp.js?ver=2'/>"></script>
 </html>

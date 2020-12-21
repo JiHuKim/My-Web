@@ -67,6 +67,10 @@ nav{
 	cursor: pointer;
 }
 
+#loginbtn {
+	float: right;
+}
+
 @media (max-width:660px){
 	#menubtn{
 		display: inline-block;
@@ -91,7 +95,16 @@ nav{
 	#servicebtn{
 		top: 250px;
 	}
-
+	
+	#loginbtn{
+		position: absolute;
+		right: 10px;
+		height: 50px;
+		bottom: 10px;
+		border-radius: 100px;
+		width: 55px;
+	}
+	
 }
 
 

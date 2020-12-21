@@ -28,5 +28,10 @@ public class MyController {
 		return "views/MywebService";
 	}
 	
+	@RequestMapping(value = "/loginpopup.do", method = RequestMethod.POST)
+	public String login() {
+		return "views/MywebLoginPopUp";
+	}
+	
 	
 }

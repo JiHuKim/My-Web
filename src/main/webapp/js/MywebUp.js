@@ -26,7 +26,7 @@
 	btn_div.prepend(nav);
 	
 	
-	for(var i=0; i<5; i++){
+	for(var i=0; i<6; i++){
 		var input_arr = [];
 		input_arr[i]=document.createElement('input');
 		nav.append(input_arr[i]);
@@ -49,6 +49,8 @@
 			case 4 : input_arr[i].setAttribute('id','servicebtn');
 					 input_arr[i].setAttribute('value','Service');
 					 input_arr[i].setAttribute('name','navbtn');break;
+			case 5 : input_arr[i].setAttribute('id','loginbtn');
+					 input_arr[i].setAttribute('value','Login');break;
 			default : break;
 		}
 	

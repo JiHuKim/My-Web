@@ -55,3 +55,15 @@ function menuToggle(targetid,eventname){
 	})
 	
 }
+
+function loginPopup(form,loginbtnid){
+	loginbtnid.addEventListener('click',function(){
+		var popup = window.open("" , "loginpopup", "height=300 , width=500");
+		form.action = "/loginpopup.do";
+		form.target = "loginpopup";
+		form.method = "post";
+		form.submit();
+		
+	})
+	
+}
